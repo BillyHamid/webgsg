@@ -1,0 +1,8 @@
+const TrackingTimeline_vue_vue_type_style_index_0_scoped_1cc855ca_lang = ".step[data-v-1cc855ca]{animation:step-in-1cc855ca .5s cubic-bezier(.16,1,.3,1) forwards;opacity:0}@keyframes step-in-1cc855ca{0%{opacity:0;transform:translate(-10px)}to{opacity:1;transform:translate(0)}}.pulse-ring[data-v-1cc855ca]{animation:pulse-ring-1cc855ca 2s ease-out infinite}@keyframes pulse-ring-1cc855ca{0%{box-shadow:0 0 #70d3c273}70%{box-shadow:0 0 0 10px #70d3c200}to{box-shadow:0 0 #70d3c200}}.connector-flow[data-v-1cc855ca]{animation:connector-flow-1cc855ca 1.6s linear infinite;background:linear-gradient(180deg,#70d3c2 0,#93e0d1 50%,#70d3c2);background-size:100% 200%}@keyframes connector-flow-1cc855ca{0%{background-position:0 0}to{background-position:0 -200%}}@media(prefers-reduced-motion:reduce){.step[data-v-1cc855ca]{opacity:1}.connector-flow[data-v-1cc855ca],.pulse-ring[data-v-1cc855ca],.step[data-v-1cc855ca]{animation:none}}";
+
+const _trackingNumber_Styles_PeOqdSye = [
+  TrackingTimeline_vue_vue_type_style_index_0_scoped_1cc855ca_lang
+];
+
+export { _trackingNumber_Styles_PeOqdSye as default };
+//# sourceMappingURL=_trackingNumber_-styles.PeOqdSye.mjs.map
