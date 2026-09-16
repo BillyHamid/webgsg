@@ -1,9 +1,0 @@
-{
-  "pid": 98152,
-  "startedAt": 1789380474642,
-  "command": "dev",
-  "cwd": "C:/Users/HP/Documents/mes projets/shipping/apps/tracking",
-  "port": 3001,
-  "hostname": "::1",
-  "url": "http://[::1]:3001"
-}
