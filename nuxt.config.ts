@@ -42,6 +42,17 @@ export default defineNuxtConfig({
     },
   },
 
+  // A parcel page contains live operational data. Do not let a browser or an
+  // intermediary reuse an earlier "unavailable" response after the API has
+  // recovered; each visit must request the current tracking state.
+  routeRules: {
+    '/p/**': {
+      headers: {
+        'cache-control': 'no-store, max-age=0, must-revalidate',
+      },
+    },
+  },
+
   pwa: {
     registerType: 'autoUpdate',
     manifest: {
