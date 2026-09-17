@@ -15,8 +15,11 @@ export default defineNuxtConfig({
 
   runtimeConfig: {
     public: {
-      apiUrl: process.env.NUXT_PUBLIC_API_URL ?? 'http://localhost:3000/api',
-      wsUrl: process.env.NUXT_PUBLIC_WS_URL ?? 'http://localhost:3000',
+      // Vercel injects public runtime variables into the rendered page. Keep a
+      // reachable production fallback as well: an empty Vercel value must not
+      // silently make every tracking number appear unavailable.
+      apiUrl: process.env.NUXT_PUBLIC_API_URL || 'https://biflex-nonclinically-linn.ngrok-free.dev/api',
+      wsUrl: process.env.NUXT_PUBLIC_WS_URL || 'https://biflex-nonclinically-linn.ngrok-free.dev',
     },
   },
 
