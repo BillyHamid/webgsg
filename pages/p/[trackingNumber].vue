@@ -115,11 +115,6 @@ function countryLabel(code: string): string {
           </div>
           <TrackingTimeline :steps="data.timeline" :current-state="data.currentState" />
         </div>
-
-        <!-- Share -->
-        <div class="reveal reveal-6 bg-white rounded-3xl shadow-xl shadow-black/5 ring-1 ring-ink-100 p-6 sm:p-7">
-          <ShareButtons :tracking-number="data.trackingNumber" />
-        </div>
       </div>
     </div>
   </main>
